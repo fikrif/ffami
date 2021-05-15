@@ -10,11 +10,11 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">struggle</a>
+          Welcome to <a href="https://indonesiadermawan.id/campaign/10484/rebut-kembali-palestina-dengan-sedekah-terkuatmu">struggle</a>
         </h1>
 
         <p className="description">
-         branch <code>dev</code>
+         {/* branch <code>dev</code> */}
         </p>
 
         <div className="grid">
@@ -45,11 +45,11 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a> */}
-          <div className="card">
+          {/* <div className="card">
             <button className="button">
               coba pencet
             </button>
-          </div>
+          </div> */}
         </div>
       </main>
 
@@ -59,8 +59,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Fikri Fadillah Fahmi 2021
+          {/* {' '} */}
+          {/* <img src="/vercel.svg" alt="Vercel Logo" className="logo" /> */}
         </a>
       </footer>
 
@@ -90,6 +91,9 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          font-size: .875rem;
+          line-height: 1.25;
+          color: rgba(107,114,128,0.8);
         }
 
         footer img {
@@ -200,6 +204,11 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+        }
+        footer {
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
