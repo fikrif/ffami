@@ -1,6 +1,10 @@
 import Head from 'next/head'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
+
+
   return (
     <div className="container">
       <Head>
@@ -10,59 +14,27 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to The <a href="https://indonesiadermawan.id/campaign/10484/rebut-kembali-palestina-dengan-sedekah-terkuatmu">Struggle</a>
+          Welcome to The <a href="https://indonesiadermawan.id/campaign/10484/rebut-kembali-palestina-dengan-sedekah-terkuatmu" target="_blank">Struggle</a>
         </h1>
 
         <p className="description">
          {/* branch <code>dev</code> */}
         </p>
 
-        <div className="grid">
-          {/* <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/zeit/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a> */}
-          {/* <div className="card">
-            <button className="button">
-              coba pencet
-            </button>
-          </div> */}
-        </div>
       </main>
 
       <footer>
-        {/* <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        > */}
-          Fikri Fadillah Fahmi 2021
-          {/* {' '} */}
-          {/* <img src="/vercel.svg" alt="Vercel Logo" className="logo" /> */}
-        {/* </a> */}
+          <div>
+            <p>Fikri Fadillah Fahmi 2021</p>
+            {/* <ul>
+              <li>
+                <FontAwesomeIcon icon={faGithub} size="8x" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faLinkedinIn} size="8x" />
+              </li>
+            </ul> */}
+          </div>
       </footer>
 
       <style jsx>{`
@@ -96,6 +68,13 @@ export default function Home() {
           color: rgba(107,114,128,0.8);
         }
 
+        footer div {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
         footer img {
           margin-left: 0.5rem;
         }
@@ -104,6 +83,10 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+        }
+
+        footer li {
+          color: red;
         }
 
         a {
