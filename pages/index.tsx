@@ -1,6 +1,12 @@
 import Head from 'next/head'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import clsx from 'clsx'
+import {
+  FaPaperPlane,
+  FaFileAlt,
+  FaLinkedinIn,
+  FaGithub,
+  FaTwitter,
+} from 'react-icons/fa'
 
 export default function Home() {
 
