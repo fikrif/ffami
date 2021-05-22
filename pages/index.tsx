@@ -25,7 +25,9 @@ export default function Home() {
 
       <footer>
           <div>
-            <p>Fikri Fadillah Fahmi 2021</p>
+            <div>
+              <p>Fikri Fadillah Fahmi 2021</p>
+            </div>
             {/* <ul>
               <li>
                 <FontAwesomeIcon icon={faGithub} size="8x" />
