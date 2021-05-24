@@ -1,33 +1,32 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
-  purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
+  purge: {
+    content: [
+      './pages/**/*.{js,ts,jsx,tsx,mdx}',
+      './components/**/*.{js,ts,jsx,tsx}',
+      './figures/**/*.{js,ts,jsx,tsx}',
+    ],
+  },
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        blacks: {
+          900: '#09090b',
+          700: '#16171C',
+          500: '#262730',
+          300: '#373844',
+        },
       },
-      spacing: {
-        28: '7rem',
+      screens: {
+        md: '640px',
       },
-      letterSpacing: {
-        tighter: '-.04em',
-      },
-      lineHeight: {
-        tight: 1.2,
-      },
-      fontSize: {
-        '5xl': '2.5rem',
-        '6xl': '2.75rem',
-        '7xl': '4.5rem',
-        '8xl': '6.25rem',
-      },
-      boxShadow: {
-        small: '0 5px 10px rgba(0, 0, 0, 0.12)',
-        medium: '0 8px 30px rgba(0, 0, 0, 0.12)',
+      fontFamily: {
+        sans: ['Karla', ...defaultTheme.fontFamily.sans],
+        mono: ['Source Code Pro', ...defaultTheme.fontFamily.mono],
       },
     },
   },
+  variants: {},
+  plugins: [],
 }

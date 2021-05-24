@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import clsx from 'clsx'
 import {
-  FaPaperPlane,
-  FaFileAlt,
   FaLinkedinIn,
   FaGithub,
   FaTwitter,
 } from 'react-icons/fa'
+import SocialMedia from '../components/SocialMedia'
+import styles from '../styles/Home.module.scss'
 
 export default function Home() {
 
@@ -14,36 +14,59 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>ffami</title>
+        <title>Fikri Fadillah Fahmi</title>
+        <meta
+          name="description"
+          content="Fikri Fadillah Fahmi is a software developer specializing in building web and mobile applications."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to The <a href="https://indonesiadermawan.id/campaign/10484/rebut-kembali-palestina-dengan-sedekah-terkuatmu" target="_blank">Struggle</a>
+          {/* Welcome to The <a href="https://indonesiadermawan.id/campaign/10484/rebut-kembali-palestina-dengan-sedekah-terkuatmu" target="_blank">Struggle</a> */}
+          Check back later!
         </h1>
-
-        <p className="description">
-         {/* branch <code>dev</code> */}
-        </p>
-
       </main>
 
-      <footer>
-          <div>
-            <div>
-              <p>Fikri Fadillah Fahmi 2021</p>
+      <footer className="footer-design items-center justify-between text-gray-500 full-width">
+          <section>
+            <p className="mb-2 font-mono text-sm text-center">
+              Fikri Fadillah Fahmi 2021
+            </p>
+            <div className="footer-design flex justify-center space-x-4 text-lg">
+              {/* <li> */}
+              <div className="margin-right">
+                <SocialMedia
+                  label="GitHub"
+                  link="https://github.com/fikrif"
+                  icon={<FaGithub />}
+                />
+              </div>
+              <div className="margin-right">
+                <SocialMedia
+                  label="LinkedIn"
+                  link="https://linkedin.com/in/fikrifadillah/"
+                  icon={<FaLinkedinIn />}
+                />
+              </div>
+              {/* </li> */}
+              {/* <li> */}
+        
+              {/* </li> */}
+              {/* <li> */}
+              <div>
+                <SocialMedia
+                  label="Twitter"
+                  link="https://twitter.com/fikrifami"
+                  icon={<FaTwitter />}
+                />
+              </div>
+          
+              {/* </li> */}
             </div>
-            {/* <ul>
-              <li>
-                <FontAwesomeIcon icon={faGithub} size="8x" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faLinkedinIn} size="8x" />
-              </li>
-            </ul> */}
-          </div>
-      </footer>
+          </section>
+        </footer>
 
       <style jsx>{`
         .container {
@@ -76,11 +99,15 @@ export default function Home() {
           color: rgba(107,114,128,0.8);
         }
 
-        footer div {
+        .footer-design {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
           align-items: center;
+        }
+
+        .margin-right {
+          margin-right: 10px;
         }
 
         footer img {
