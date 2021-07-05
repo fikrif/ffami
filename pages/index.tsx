@@ -25,7 +25,7 @@ export default function Home() {
       <main>
         <h1 className="title">
           {/* Welcome to The <a href="https://indonesiadermawan.id/campaign/10484/rebut-kembali-palestina-dengan-sedekah-terkuatmu" target="_blank">Struggle</a> */}
-          Check back later!
+          Hi 👋
         </h1>
       </main>
 
