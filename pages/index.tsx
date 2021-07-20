@@ -34,8 +34,7 @@ export default function Home() {
             <p className="mb-2 font-mono text-sm text-center">
               Fikri Fadillah Fahmi 2021
             </p>
-            <div className="footer-design flex justify-center space-x-4 text-lg">
-              {/* <li> */}
+            {/* <div className="footer-design flex justify-center space-x-4 text-lg">
               <div className="margin-right">
                 <SocialMedia
                   label="GitHub"
@@ -50,11 +49,6 @@ export default function Home() {
                   icon={<FaLinkedinIn />}
                 />
               </div>
-              {/* </li> */}
-              {/* <li> */}
-        
-              {/* </li> */}
-              {/* <li> */}
               <div>
                 <SocialMedia
                   label="Twitter"
@@ -63,8 +57,7 @@ export default function Home() {
                 />
               </div>
           
-              {/* </li> */}
-            </div>
+            </div> */}
           </section>
         </footer>
 
