@@ -1,0 +1,274 @@
+# Airpaz Affiliate - introduction / onboarding page
+# English source strings for Weblate (airpaz-web-frontend).
+#
+# Format: monolingual gettext, msgid = key, msgstr = English text.
+# Placeholders (do NOT translate, keep the braces):
+#   {rate}      commission rate, rendered as "2%"
+#   {year}      founding year, rendered as "2011"
+#   {highlight} the text of the matching *_highlight key, wrapped in <em>/<strong> by the page
+#   {amount}    a formatted currency amount, e.g. "USD 500"
+msgid ""
+msgstr ""
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ---------------------------------------------------------------- meta
+msgid "affiliate_intro.meta.title"
+msgstr "Welcome to Airpaz Affiliate — Earn {rate} on every booking"
+
+msgid "affiliate_intro.meta.description"
+msgstr "Introduction page for the Airpaz Affiliate Dashboard: what the program is, the benefits of joining, and how the {rate} commission on every transaction works."
+
+# ---------------------------------------------------------------- hero
+msgid "affiliate_intro.hero.kicker"
+msgstr "Airpaz Affiliate Program"
+
+#. {highlight} = affiliate_intro.hero.title_highlight (shown in light pink)
+msgid "affiliate_intro.hero.title"
+msgstr "Turn your audience into {highlight}"
+
+msgid "affiliate_intro.hero.title_highlight"
+msgstr "travel earnings"
+
+#. {highlight} = affiliate_intro.hero.subtitle_highlight (shown in bold)
+msgid "affiliate_intro.hero.subtitle"
+msgstr "Welcome to the Airpaz Affiliate Program. Share flights, hotels, activities and transport from Airpaz with your audience and earn a {highlight} your customers make."
+
+msgid "affiliate_intro.hero.subtitle_highlight"
+msgstr "{rate} commission on every transaction"
+
+msgid "affiliate_intro.hero.cta_primary"
+msgstr "Get my affiliate link"
+
+msgid "affiliate_intro.hero.cta_secondary"
+msgstr "See how it works"
+
+# ---------------------------------------------------------------- commission card
+msgid "affiliate_intro.commission_card.aria_label"
+msgstr "Commission summary"
+
+msgid "affiliate_intro.commission_card.label"
+msgstr "Your commission rate"
+
+#. Shown next to the big "{rate}" figure
+msgid "affiliate_intro.commission_card.rate_suffix"
+msgstr "on every transaction"
+
+msgid "affiliate_intro.commission_card.note"
+msgstr "Applies to every completed booking made by customers you refer — flights, hotels, activities and transport."
+
+msgid "affiliate_intro.commission_card.example_customer_books"
+msgstr "Customer books"
+
+msgid "affiliate_intro.commission_card.example_you_earn"
+msgstr "You earn"
+
+# ---------------------------------------------------------------- highlights strip
+msgid "affiliate_intro.highlights.aria_label"
+msgstr "Program highlights"
+
+msgid "affiliate_intro.highlights.free_title"
+msgstr "Free to join"
+
+msgid "affiliate_intro.highlights.free_desc"
+msgstr "No fees, no minimum traffic"
+
+msgid "affiliate_intro.highlights.inventory_title"
+msgstr "Global inventory"
+
+msgid "affiliate_intro.highlights.inventory_desc"
+msgstr "Flights, hotels, activities, transport"
+
+msgid "affiliate_intro.highlights.tracking_title"
+msgstr "Real-time tracking"
+
+msgid "affiliate_intro.highlights.tracking_desc"
+msgstr "Clicks, bookings and earnings"
+
+msgid "affiliate_intro.highlights.trusted_title"
+msgstr "Trusted since {year}"
+
+msgid "affiliate_intro.highlights.trusted_desc"
+msgstr "Travelers already know Airpaz"
+
+# ---------------------------------------------------------------- what is airpaz affiliate
+msgid "affiliate_intro.about.kicker"
+msgstr "What is Airpaz Affiliate?"
+
+msgid "affiliate_intro.about.title"
+msgstr "A partnership that pays you for every traveler you send our way"
+
+msgid "affiliate_intro.about.paragraph_1"
+msgstr "Airpaz is an online travel agent that has helped travelers book flights, hotels, activities and ground transport since {year}. The Airpaz Affiliate Program lets you share that inventory with your own audience — on a blog, a social channel, a newsletter, a travel community or a business website."
+
+msgid "affiliate_intro.about.paragraph_2"
+msgstr "You get a personal tracking link and ready-made creative assets. Whenever someone clicks your link and completes a booking on Airpaz, the transaction is attributed to you and a {rate} commission is credited to your affiliate account. You can follow every click, booking and payout right here in your dashboard."
+
+msgid "affiliate_intro.about.paragraph_3"
+msgstr "There is nothing to build, stock or support. Airpaz handles search, payment, ticketing and customer service — you simply bring the travelers."
+
+msgid "affiliate_intro.products.aria_label"
+msgstr "What you can promote"
+
+msgid "affiliate_intro.products.flights_title"
+msgstr "Flights"
+
+msgid "affiliate_intro.products.flights_desc"
+msgstr "Hundreds of airlines worldwide"
+
+msgid "affiliate_intro.products.hotels_title"
+msgstr "Hotels"
+
+msgid "affiliate_intro.products.hotels_desc"
+msgstr "Stays for every budget"
+
+msgid "affiliate_intro.products.activities_title"
+msgstr "Activities"
+
+msgid "affiliate_intro.products.activities_desc"
+msgstr "Attractions, tours and tickets"
+
+msgid "affiliate_intro.products.transport_title"
+msgstr "Transport"
+
+msgid "affiliate_intro.products.transport_desc"
+msgstr "Trains, buses, ferries and cars"
+
+# ---------------------------------------------------------------- how it works
+msgid "affiliate_intro.how.title"
+msgstr "How it works"
+
+msgid "affiliate_intro.how.subtitle"
+msgstr "Four simple steps from sign-up to your first commission."
+
+msgid "affiliate_intro.how.step_1_title"
+msgstr "Join for free"
+
+msgid "affiliate_intro.how.step_1_desc"
+msgstr "Create your affiliate account and get instant access to this dashboard."
+
+msgid "affiliate_intro.how.step_2_title"
+msgstr "Share your link"
+
+msgid "affiliate_intro.how.step_2_desc"
+msgstr "Use your tracking link, banners and widgets anywhere your audience is."
+
+msgid "affiliate_intro.how.step_3_title"
+msgstr "Customers book"
+
+msgid "affiliate_intro.how.step_3_desc"
+msgstr "Travelers click through and complete their booking on Airpaz as usual."
+
+msgid "affiliate_intro.how.step_4_title"
+msgstr "Earn {rate} per transaction"
+
+msgid "affiliate_intro.how.step_4_desc"
+msgstr "Every completed transaction credits {rate} to your account, ready for payout."
+
+# ---------------------------------------------------------------- benefits
+msgid "affiliate_intro.benefits.title"
+msgstr "Why affiliates love the program"
+
+msgid "affiliate_intro.benefits.subtitle"
+msgstr "Everything you need to earn is already set up for you."
+
+msgid "affiliate_intro.benefits.core_tag"
+msgstr "Core benefit"
+
+msgid "affiliate_intro.benefits.commission_title"
+msgstr "{rate} commission on every transaction"
+
+msgid "affiliate_intro.benefits.commission_desc"
+msgstr "Not just the first purchase — every transaction your customers make earns you {rate}, across all Airpaz products."
+
+msgid "affiliate_intro.benefits.products_title"
+msgstr "One link, four products"
+
+msgid "affiliate_intro.benefits.products_desc"
+msgstr "Promote flights, hotels, activities and transport in one program — more ways for the same traveler to book through you."
+
+msgid "affiliate_intro.benefits.reports_title"
+msgstr "Transparent real-time reports"
+
+msgid "affiliate_intro.benefits.reports_desc"
+msgstr "Track clicks, conversions, bookings and earnings as they happen, and export reports whenever you need them."
+
+msgid "affiliate_intro.benefits.assets_title"
+msgstr "Ready-made creative assets"
+
+msgid "affiliate_intro.benefits.assets_desc"
+msgstr "Banners, widgets, deep links and seasonal campaign materials — download and publish in minutes."
+
+msgid "affiliate_intro.benefits.payouts_title"
+msgstr "Reliable payouts"
+
+msgid "affiliate_intro.benefits.payouts_desc"
+msgstr "Commissions are credited to your account automatically and paid out on a regular schedule you can follow in the dashboard."
+
+msgid "affiliate_intro.benefits.support_title"
+msgstr "Dedicated partner support"
+
+msgid "affiliate_intro.benefits.support_desc"
+msgstr "A partner team to help with integration, campaigns and questions, plus guides right inside the dashboard."
+
+# ---------------------------------------------------------------- commission explainer
+msgid "affiliate_intro.explainer.title"
+msgstr "Simple, flat {rate} on every transaction"
+
+msgid "affiliate_intro.explainer.desc"
+msgstr "No tiers to decode and no fine print on product type. Whatever your customer books, you receive {rate} of the transaction value."
+
+msgid "affiliate_intro.explainer.point_1"
+msgstr "Earned on every completed transaction, not just the first one"
+
+msgid "affiliate_intro.explainer.point_2"
+msgstr "Same rate for flights, hotels, activities and transport"
+
+msgid "affiliate_intro.explainer.point_3"
+msgstr "Credited to your account automatically — see it in Earnings"
+
+msgid "affiliate_intro.explainer.table_title"
+msgstr "What {rate} looks like"
+
+msgid "affiliate_intro.explainer.table_col_booking"
+msgstr "Your customer books"
+
+msgid "affiliate_intro.explainer.table_col_transaction"
+msgstr "Transaction"
+
+msgid "affiliate_intro.explainer.table_col_earn"
+msgstr "You earn"
+
+msgid "affiliate_intro.explainer.example_domestic_flight"
+msgstr "A domestic flight"
+
+msgid "affiliate_intro.explainer.example_hotel_stay"
+msgstr "A 3-night hotel stay"
+
+msgid "affiliate_intro.explainer.example_international_trip"
+msgstr "An international round trip"
+
+msgid "affiliate_intro.explainer.example_full_trip"
+msgstr "A full trip (flight + hotel + activities)"
+
+msgid "affiliate_intro.explainer.fine_print"
+msgstr "Amounts are illustrative examples of the {rate} calculation. Commission is credited on completed transactions and shown in your Earnings report."
+
+# ---------------------------------------------------------------- final CTA
+msgid "affiliate_intro.final_cta.title"
+msgstr "Ready to start earning?"
+
+msgid "affiliate_intro.final_cta.desc"
+msgstr "Grab your affiliate link, pick a banner from Creative Assets, and your first {rate} commission could be one booking away."
+
+msgid "affiliate_intro.final_cta.cta_primary"
+msgstr "Get my affiliate link"
+
+msgid "affiliate_intro.final_cta.cta_secondary"
+msgstr "Browse creative assets"
+
+# ---------------------------------------------------------------- footer
+msgid "affiliate_intro.footer.note"
+msgstr "Commission rate: {rate} per completed transaction. Example amounts on this page are illustrative. Full program terms are available in the Help section of your dashboard."
