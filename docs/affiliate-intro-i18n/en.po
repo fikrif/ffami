@@ -6,7 +6,6 @@
 #   {rate}      commission rate, rendered as "2%"
 #   {year}      founding year, rendered as "2011"
 #   {highlight} the text of the matching *_highlight key, wrapped in <em>/<strong> by the page
-#   {amount}    a formatted currency amount, e.g. "USD 500"
 msgid ""
 msgstr ""
 "Language: en\n"
